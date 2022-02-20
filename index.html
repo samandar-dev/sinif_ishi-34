@@ -27,20 +27,28 @@
             <img src="images/logo.svg" alt="logo" width="150" height="25">
           </a>
 
-          <nav class="site__nav row middle between">
-            <ul class="nav__list row middle between">
-              <li class="nav__item">
-                <a class="nav__link" href="#">FEATURES</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="#">PRICING</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="#">CONTACT</a>
-              </li>
-            </ul>
-            <a class="btn-2 nav__link_log" href="#">LOGIN</a>
-          </nav>
+          <div class="header__nav-bar" id="menuBox">
+            <nav class="site__nav nav row middle between">
+              <ul class="nav__list row middle between">
+                <li class="nav__item">
+                  <a class="nav__link" href="#">FEATURES</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">PRICING</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">CONTACT</a>
+                </li>
+              </ul>
+              <a class="btn-2 nav__link_log" href="#">LOGIN</a>
+            </nav>
+            <button class="removee-btn" id="menuRemov">
+              <i class='bx bx-x'></i>
+            </button>
+          </div>
+          <button class="menu-btn" id="menuBtn">
+            <i class='bx bx-menu'></i>
+          </button>
         </div>
       </div>
     </div>
@@ -58,8 +66,8 @@
             </div>
           </div>
 
-          <div class="hero__img">
-            <img src="images/hero__img-2.png" alt="hero__img" width="670" height="485">
+          <div class="hero__img-box">
+            <img class="hero__img" src="images/hero__img-2.png" alt="hero__img" width="670" height="485">
           </div>
         </div>
       </div>
@@ -68,7 +76,6 @@
 
 
   <!-- MAIN PART -->
-
   <main class="main">
     <div class="main__inner">
       <div class="container">
@@ -81,34 +88,38 @@
             </p>
           </div>
 
-          <div class="features__menus">
-            <ul class="features__list row middle">
-              <li class="features__item feat__item-act">
-                <a class="features__link" href="#">Simple Bookmarking</a>
-              </li>
-              <li class="features__item">
-                <a class="features__link" href="#">Speedy Searching</a>
-              </li>
-              <li class="features__item">
-                <a class="features__link" href="#">Easy Sharing</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="features__menus__img__title-box row between">
-            <div class="features__img">
-              <img src="images/features__img.svg" alt="features__img" width="705" height="435">
+          <div class="features__desc ">
+            <div class="features__menus">
+              <ul class="features__list row middle">
+                <li class="features__item feat__item-act">
+                  <a class="features__link" href="#">Simple Bookmarking</a>
+                </li>
+                <li class="features__item">
+                  <a class="features__link" href="#">Speedy Searching</a>
+                </li>
+                <li class="features__item">
+                  <a class="features__link" href="#">Easy Sharing</a>
+                </li>
+              </ul>
             </div>
 
-            <div class="features__titles__text-box">
-              <h3 class="title">Bookmark in one click</h3>
-              <p class="text fetures__text">Organize your bookmarks however you like. Our simple drag-and-drop interface
-                gives you
-                complete control over how you manage your favourite sites.</p>
-              <a class="btn-1" href="#">More Info</a>
+            <div class="features__menus__img__title-box row between">
+              <div class="features__img-box">
+                <img class="features__img" src="images/features__img.svg" alt="features__img" width="705" height="435">
+              </div>
+
+              <div class="features__titles__text-box">
+                <h3 class="title">Bookmark in one click</h3>
+                <p class="text fetures__text">Organize your bookmarks however you like. Our simple drag-and-drop
+                  interface
+                  gives you
+                  complete control over how you manage your favourite sites.</p>
+                <a class="btn-1" href="#">More Info</a>
+              </div>
             </div>
           </div>
         </div>
+
 
 
         <div class="extension__box">
